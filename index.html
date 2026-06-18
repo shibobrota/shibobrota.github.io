@@ -1,160 +1,460 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Shibobrota's Resume</title>
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="Shibobrota Das">
+  <meta name="theme-color" content="#c2410c">
+
+  <!-- Primary SEO -->
+  <title>Shibobrota Das — Mobile Platform Engineer · Mobile + AI Platforms</title>
+  <meta name="description" content="Mobile Platform Engineer with 7+ years building production mobile apps at scale. Built the ML on Edge SDK inside Dream11's 200M-user app and Rushline (92.8K installs). IIT Madras M.Tech CSE. React Native, ONNX Runtime, LangGraph.">
+  <meta name="keywords" content="Shibobrota Das, Mobile Platform Engineer, Mobile Engineer, React Native, On-device ML, ONNX Runtime, Dream11, IIT Madras, AI Platforms, LangGraph, Android, iOS, Mumbai">
+  <link rel="canonical" href="https://shibobrota.github.io/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shibobrota.github.io/">
+  <meta property="og:title" content="Shibobrota Das — Mobile Platform Engineer · Mobile + AI Platforms">
+  <meta property="og:description" content="7+ years building production mobile apps at scale. ML on Edge SDK (200M+ users), Rushline AI cricket assistant (92.8K installs). IIT Madras M.Tech.">
+  <meta property="og:locale" content="en_IN">
+  <meta property="og:site_name" content="Shibobrota Das">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Shibobrota Das — Mobile Platform Engineer · Mobile + AI Platforms">
+  <meta name="twitter:description" content="7+ years building production mobile apps at scale. ML on Edge SDK (200M+ users), Rushline (92.8K installs). IIT Madras M.Tech CSE.">
+
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Shibobrota Das",
+    "url": "https://shibobrota.github.io/",
+    "email": "shibobrota@gmail.com",
+    "jobTitle": "Mobile Platform Engineer",
+    "description": "Mobile platform engineer with 7+ years building production mobile apps at scale. On-device ML SDK and AI product builder.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Indian Institute of Technology, Madras",
+        "url": "https://www.iitm.ac.in/"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Parala Maharaja Engineering College, Berhampur"
+      }
+    ],
+    "knowsAbout": [
+      "React Native", "On-device Machine Learning", "ONNX Runtime",
+      "Mobile Platform Engineering", "LangGraph", "Android", "iOS",
+      "TypeScript", "Python", "Kotlin", "Swift", "CI/CD", "Firebase"
+    ],
+    "sameAs": [
+      "https://www.linkedin.com/in/shibobrota"
+    ]
+  }
+  </script>
+
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+  <!-- Mark JS as available before paint so scroll-reveal hides content only when it can animate it back in -->
+  <script>document.documentElement.className += ' js';</script>
 </head>
 <body>
 
-	<div class="container">
-		<div class="hero">
-			<h1 class="name"><strong>Shibobrota</strong> Das</h1>
-			<span class="job-title">Developer</span>
-			<span class="email">shibobrota@gmail.com</span>
+  <!-- ============ HERO ============ -->
+  <header class="hero" id="hero">
+    <div class="wrapper hero-content">
+      <div class="hero-top-row">
+        <span class="hero-badge">Mobile Platform Engineer · Mobile + AI Platforms</span>
+        <span class="availability-badge">
+          <span class="pulse-dot"></span>
+          Open to Work
+        </span>
+      </div>
+      <h1>Shibobrota <span>Das</span></h1>
+      <p class="hero-subtitle">
+        I bring mobile platform expertise, an on-device ML SDK built from scratch, 
+        and hands-on contributions to production LLM agent tooling.
+      </p>
 
-			<h2 class="lead">Ambitious Software Engineer with a collaborative attitude.</h2>
-		</div>
-	</div>
+      <div class="hero-links">
+        <a href="mailto:shibobrota@gmail.com" class="hero-link" id="link-email">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          shibobrota@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/shibobrota" target="_blank" rel="noopener" class="hero-link" id="link-linkedin">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          LinkedIn
+        </a>
+      </div>
 
-<!-- Skills and intrest section -->
-	<div class="container">
+      <div class="stats-bar">
+        <div class="stat">
+          <span class="stat-value">7+</span>
+          <span class="stat-label">Years Exp.</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">200M+</span>
+          <span class="stat-label">Users Served</span>
+        </div>
+        <div class="stat">
+          <span class="stat-value">99.5%</span>
+          <span class="stat-label">Crash-free</span>
+        </div>
+      </div>
+    </div>
+  </header>
 
-		<div class="sections">
-			<h2 class="section-title">Skills</h2>
+  <!-- ============ SUMMARY ============ -->
+  <main>
+  <section class="summary-section" aria-label="Summary">
+    <div class="wrapper">
+      <p class="summary-text reveal">
+        Built two products from inception at Dream11 — the <strong>ML on Edge SDK</strong> 
+        (on-device inference inside the 200M-user mobile app) and <strong>Rushline</strong>, 
+        the AI cricket assistant (92.8K installs, 10K+ peak match-day DAU, &gt;99.5% crash-free). 
+        Spans mobile platform &amp; release engineering (React Native, Android, iOS), on-device ML, 
+        and LLM agent tooling.
+      </p>
+    </div>
+  </section>
 
-			<div class="list-card">
-				<span class="exp"> + 1.5 years</span>
-				<div>
-					<h3>Native android and iOS app development</h3>
-					<span>Core Java, Swift, …</span>
-				</div>
-			</div>
-			
-			<div class="list-card">
-				<span class="exp"> < 1 year</span>
-				<div>
-					<h3>Account aggregator - Real-Time financial information aggregation</h3>
-					<span>Node.Js, JS Frameworks, AWS API gateway, Lambda, Cognito, SQS & RDS(MySQL) using Serverless framework</span>
-				</div>
-			</div>	
+  <!-- ============ HIGHLIGHTS ============ -->
+  <section id="highlights" aria-label="Key metrics and achievements">
+    <div class="wrapper">
+      <span class="section-label reveal">Impact</span>
+      <h2 class="section-title reveal">Key Numbers</h2>
 
-		</div>
-		<div class="sections">
-				<h2 class="section-title">Interests</h2>
-				
-				<div class="list-card">
-					<div>
-						<h3>Analysis of Algorithms</h3>
-						<span>C, C++, Java</span>
-					</div>
-				</div>	
+      <div class="highlight-group">
+        <p class="highlight-group-label reveal">ML on Edge SDK</p>
+        <div class="highlights-grid">
+          <div class="highlight-card reveal">
+            <span class="highlight-value">20ms</span>
+            <span class="highlight-desc">Inference latency on 500–800KB models</span>
+          </div>
+          <div class="highlight-card reveal">
+            <span class="highlight-value">&gt;99.5%</span>
+            <span class="highlight-desc">Crash-free SDK runtime</span>
+          </div>
+          <div class="highlight-card reveal">
+            <span class="highlight-value">200M+</span>
+            <span class="highlight-desc">App users the SDK ships inside</span>
+          </div>
+        </div>
+      </div>
 
-				<div class="list-card">
-					<div>
-						<h3>Discrete Mathematics</h3>
-						<span>Set theory, Graph theory, Group theory...</span>
-					</div>
-				</div>		
-		</div>
-	</div>
+      <div class="highlight-group">
+        <p class="highlight-group-label reveal">Rushline</p>
+        <div class="highlights-grid">
+          <div class="highlight-card reveal">
+            <span class="highlight-value">92.8K</span>
+            <span class="highlight-desc">Play Store installs</span>
+          </div>
+          <div class="highlight-card reveal">
+            <span class="highlight-value">10K+</span>
+            <span class="highlight-desc">Peak match-day DAU</span>
+          </div>
+          <div class="highlight-card reveal">
+            <span class="highlight-value">441</span>
+            <span class="highlight-desc">Commits on Rushline web client (#1 contributor)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<!-- Achievements -->
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" aria-label="Work experience">
+    <div class="wrapper">
+      <span class="section-label reveal">Experience</span>
+      <h2 class="section-title reveal">My Journey</h2>
 
-	<div class="container cards">
-		
-		<div class="card">
-			<div class="skill-level">
-				<span>+</span>
-				<h2>3</h2>
-			</div>
+      <div class="timeline">
+        <div class="timeline-progress" aria-hidden="true"></div>
+        <!-- Dream11 -->
+        <div class="timeline-company reveal">
+          <div class="timeline-dot"></div>
+          <div class="company-header">
+            <span class="timeline-year">2022 – 26</span>
+            <h3 class="company-name">Dream11</h3>
+            <p class="company-meta">Mumbai, India · Jul 2022 – Jun 2026</p>
+            <div class="timeline-roles">
+              <span class="timeline-role">SDE</span>
+              <span class="role-arrow">→</span>
+              <span class="timeline-role role-current">SDE-II</span>
+            </div>
+          </div>
 
-			<div class="skill-meta">
-				<h3>Projects</h3>
-				<span>Having a record of continuously exceeding both company and personal goals.</span>
-			</div>
-		</div>
+          <!-- DreamPlay -->
+          <div class="project-card">
+            <h4 class="project-name">DreamPlay</h4>
+            <p class="project-dates">Feb 2026 – Jun 2026</p>
+            <ul>
+              <li><strong>DreamPlay's AI dev agent</strong> (LangGraph + Claude API + FastAPI + React) — a multi-repo agent that orchestrates code changes across repos with human-in-the-loop review gates before each merge. Built the cross-repo context-generation tooling the agent's planner uses.</li>
+              <li><strong>DreamPlay mobile analytics — built from zero.</strong> Defined the event taxonomy and architected the full stack (Firebase Analytics + GA4 + BigQuery + Looker Studio), right-sized for DreamPlay's scale with no custom pipeline to operate.</li>
+            </ul>
+          </div>
 
-			
-		<div class="card">
-			<div class="skill-level">
-				<h2>35</h2>
-				<span>%</span>
-			</div>
+          <!-- Rushline -->
+          <div class="project-card">
+            <h4 class="project-name">Rushline</h4>
+            <p class="project-dates">Jan 2025 – Feb 2026</p>
+            <ul>
+              <li><strong>Founding mobile engineer on Rushline.</strong> Carried the app from 0 to v1 in ~4 months as IC, directly mentoring 2 engineers as the team grew. Built the React web client first — integrated inside the Dream11 app as a WebView surface — then wrapped in a standalone React Native shell for Play Store launch, before migrating to full RN. Owned CI/CD, release engineering, and CodePush OTA (GitHub Actions → EC2 + Fastlane) throughout. <strong>92.8K installs, 10K+ peak match-day DAU, &gt;99.5% crash-free.</strong></li>
+            </ul>
+          </div>
 
-			<div class="skill-meta">
-				<h3>iOS App development</h3>
-				<span>Application development, integrating third-party services.</span>
-			</div>
-		</div>
+          <!-- ML on Edge SDK -->
+          <div class="project-card">
+            <h4 class="project-name">ML on Edge SDK</h4>
+            <p class="project-dates">Nov 2023 – Dec 2024</p>
+            <ul>
+              <li><strong>Built the ML on Edge SDK from the ground up</strong> — Dream11's cross-platform on-device ML inference SDK, designed and shipped inside the Dream11 Mobile app (200M+ users, Android + iOS) across 45 PRs / ~8K LoC. <strong>20ms inference on 500–800KB decision-tree models, &gt;99.5% crash-free</strong>, powering contest recommendation and payments recommendation. Architecture: model registry, SQLite-backed feature and event store, JSI synchronous inference on ONNX Runtime.</li>
+              <li><strong>InferSimulator</strong> — Python mirror of the production runtime, adopted by the internal DS team for pre-deploy validation.</li>
+            </ul>
+          </div>
 
-					
-		<div class="card">
-			<div class="skill-level">
-				<h2>35</h2>
-				<span>%</span>
-			</div>
+          <!-- Mobile Platform -->
+          <div class="project-card">
+            <h4 class="project-name">Mobile Platform / Release Engineering</h4>
+            <p class="project-dates">Jul 2022 – Oct 2023</p>
+            <ul>
+              <li>Built the in-house mobile performance testing pipeline (replacing a planned HeadSpin subscription) — self-hosted OpenSTF device farm, Appium parallel runs on real devices, orchestrated from Jenkins on EC2 — <strong>saving ~$50K/year</strong> in SaaS costs for the platform team's testing workflow.</li>
+            </ul>
+          </div>
+        </div>
 
-			<div class="skill-meta">
-				<h3>Android app development</h3>
-				<span>Application development, integrating third-party services and configurations</span>
-			</div>
-		</div>
+        <!-- IIT Madras milestone -->
+        <div class="timeline-milestone reveal">
+          <div class="timeline-dot milestone-dot"></div>
+          <div class="milestone-content">
+            <span class="timeline-year">2020 – 22</span>
+            <h3 class="milestone-title">IIT Madras — M.Tech, CSE</h3>
+            <p class="milestone-note">Left full-time work to strengthen CS fundamentals — a deliberate mid-career pivot. CGPA 8.8 / 10.</p>
+          </div>
+        </div>
 
+        <!-- Divami -->
+        <div class="timeline-company reveal">
+          <div class="timeline-dot"></div>
+          <div class="company-header">
+            <span class="timeline-year">2017 – 20</span>
+            <h3 class="company-name">Divami Design Labs</h3>
+            <p class="company-meta">Hyderabad, India · Jun 2017 – Aug 2020</p>
+            <div class="timeline-roles">
+              <span class="timeline-role">UX Engineer</span>
+            </div>
+          </div>
 
-		<div class="card">
-			<div class="skill-level">
-				<h2>30</h2>
-				<span>%</span>
-			</div>
+          <div class="project-card">
+            <h4 class="project-name">Duke.ai</h4>
+            <p class="project-dates">Mid 2019 – Aug 2020</p>
+            <ul>
+              <li><strong>AI bookkeeping assistant for SMBs.</strong> Owned mobile end-to-end on a 3-person team — native Android (Java) and iOS (Swift) through Play Store and App Store releases.</li>
+            </ul>
+          </div>
 
-			<div class="skill-meta">
-				<h3>Server side develoment</h3>
-				<span>implementation of scalable application platform for real-time financial information aggregation.</span>
-			</div>
-		</div>
+          <div class="project-card">
+            <h4 class="project-name">OneMoney</h4>
+            <p class="project-dates">Mid 2018 – Mid 2019</p>
+            <ul>
+              <li><strong>India's first RBI-licensed Account Aggregator (AA).</strong> Built the initial native Android consumer app and the OneMoney Android SDK — distributed to third-party FIU apps for embedding the AA consent flow as a POC.</li>
+            </ul>
+          </div>
+        </div>
 
-	</div>
+        <!-- B.Tech milestone -->
+        <div class="timeline-milestone reveal">
+          <div class="timeline-dot milestone-dot"></div>
+          <div class="milestone-content">
+            <span class="timeline-year">2013 – 17</span>
+            <h3 class="milestone-title">Parala Maharaja Engineering College — B.Tech, CSE</h3>
+            <p class="milestone-note">CGPA 7.9 / 10.</p>
+          </div>
+        </div>
 
-	<!-- Timeeline -->
+        <!-- First Play Store app -->
+        <div class="timeline-milestone reveal">
+          <div class="timeline-dot milestone-dot"></div>
+          <div class="milestone-content">
+            <span class="timeline-year">2016</span>
+            <h3 class="milestone-title">First mobile app on the Play Store</h3>
+            <p class="milestone-note">Published my first Android app independently during my B.Tech years — the beginning of the mobile journey.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<div class="container">
-		<ol class="timeline">
-		  <li>
-		    <p class="line">Experiences</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      UX Engineer @Divami
-		    </p>
-		    <span class="date">Today - Jun. 2017</span>
-		  </li>
+  <!-- ============ WHAT I BRING ============ -->
+  <section id="strengths" aria-label="Key strengths">
+    <div class="wrapper">
+      <span class="section-label reveal">Strengths</span>
+      <h2 class="section-title reveal">What I Bring</h2>
 
-		  	<li>
-		    <p class="line">Education</p>
-		    <span class="point"></span>
-		    <p class="description">
-		      B.Tech in CSE from P.M.E.C. Berhampur, Odisha
-		    </p>
-		    <span class="date">2017 - 2013</span>
-		  </li>
+      <div class="strengths-grid">
+        <div class="strength-card reveal" data-index="01">
+          <div class="strength-num">01</div>
+          <h3>Founding Engineer Pattern</h3>
+          <p>Built two products from inception at Dream11 — the ML on Edge SDK and the Rushline app. Start solo, build for extensibility, hand off cleanly.</p>
+        </div>
+        <div class="strength-card reveal" data-index="02">
+          <div class="strength-num">02</div>
+          <h3>Cross-Surface Architecture</h3>
+          <p>One shared Rushline web client simultaneously serves two consumer surfaces — Rushline standalone + Dream11 app — via WebView↔RN event bridges and coordinated deployment infra.</p>
+        </div>
+        <div class="strength-card reveal" data-index="03">
+          <div class="strength-num">03</div>
+          <h3>ML + Mobile Toolchain</h3>
+          <p>Built not just the production SDK but the entire surrounding toolchain: DS validation harness (InferSimulator), benchmarking harness, and emulator CI orchestrator.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-		  	<li>
-		    <span class="point"></span>
-		    <p class="description">
-			  AISSCE(with CS) from Kendriya Vidyalaya, Angul
-		    </p>
-		    <span class="date">2013 - 2011</span>
-		  </li>
-		</ol>
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" aria-label="Technical skills">
+    <div class="wrapper">
+      <span class="section-label reveal">Skills</span>
+      <h2 class="section-title reveal">Technical Toolkit</h2>
 
-	</div>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <p class="skill-category">Mobile & Release</p>
+          <p class="skill-items">React Native (RN↔WebView, JSI, native modules; Android, iOS), CodePush, GitHub Actions, Fastlane (match), build flavours, Firebase</p>
+        </div>
+        <div class="skill-card reveal">
+          <p class="skill-category">On-device ML & AI</p>
+          <p class="skill-items">ONNX Runtime (Android + iOS), ORT optimized format, AndroidX Macrobenchmark + PowerMetric, on-device feature & event store design, Anthropic SDK, Claude Code orchestration, LangGraph (state machines, checkpointing)</p>
+        </div>
+        <div class="skill-card reveal">
+          <p class="skill-category">Analytics & Growth</p>
+          <p class="skill-items">GA4, BigQuery, Looker Studio, AppsFlyer, CleverTap</p>
+        </div>
+        <div class="skill-card reveal">
+          <p class="skill-category">Languages</p>
+          <p class="skill-items">Python, TypeScript, Kotlin, Java, Swift</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" aria-label="Education">
+    <div class="wrapper">
+      <span class="section-label reveal">Education</span>
+      <h2 class="section-title reveal">Academic Background</h2>
 
-	<br><br>
+      <div class="edu-grid">
+        <div class="edu-card reveal">
+          <h3 class="edu-degree">M.Tech, Computer Science & Engineering</h3>
+          <p class="edu-school">Indian Institute of Technology, Madras</p>
+          <p class="edu-note">Deliberate mid-career pivot — left full-time employment to strengthen CS fundamentals.</p>
+          <div class="edu-meta">
+            <span class="edu-tag">CGPA 8.8 / 10</span>
+            <span class="edu-date">Aug 2020 – Jun 2022</span>
+          </div>
+        </div>
+        <div class="edu-card reveal">
+          <h3 class="edu-degree">B.Tech, Computer Science & Engineering</h3>
+          <p class="edu-school">Parala Maharaja Engineering College, Berhampur</p>
+          <div class="edu-meta">
+            <span class="edu-tag">CGPA 7.9 / 10</span>
+            <span class="edu-date">2013 – 2017</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-	<footer class="container">
-		<span style="font-size: 16px; margin-top: ">I've taken this template from <a href="https://newtodesign.com/">New to design</span>
-	</footer>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="wrapper">
+      <nav aria-label="Contact links">
+        <div class="footer-links">
+          <a href="mailto:shibobrota@gmail.com" class="footer-link" id="footer-email">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+            shibobrota@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/shibobrota" target="_blank" rel="noopener" class="footer-link" id="footer-linkedin">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            LinkedIn
+          </a>
+        </div>
+      </nav>
+      <p class="footer-copy">Mumbai, India · Immediately Available</p>
+      <p class="footer-copy">&copy; 2026 Shibobrota Das</p>
+    </div>
+  </footer>
+
+  <!-- ============ Scroll Reveal ============ -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+          }
+        });
+      }, {
+        threshold: 0.1,
+        rootMargin: '0px 0px -40px 0px'
+      });
+
+      document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // ----- Experience journey: draw the spine + light up nodes on scroll -----
+      const timeline = document.querySelector('.timeline');
+      if (timeline) {
+        const progress = timeline.querySelector('.timeline-progress');
+        const nodes = timeline.querySelectorAll('.timeline-company, .timeline-milestone');
+        const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+        timeline.classList.add('js-timeline');
+
+        if (reduceMotion) {
+          if (progress) progress.style.height = '100%';
+          nodes.forEach(n => n.classList.add('is-reached'));
+        } else {
+          let ticking = false;
+          const update = () => {
+            ticking = false;
+            const rect = timeline.getBoundingClientRect();
+            const trigger = window.innerHeight * 0.55;
+            const pct = Math.max(0, Math.min(1, (trigger - rect.top) / rect.height));
+            const tipY = rect.top + rect.height * pct;
+            if (progress) progress.style.height = (pct * 100) + '%';
+            nodes.forEach(n => {
+              const dot = n.querySelector('.timeline-dot');
+              if (dot && dot.getBoundingClientRect().top <= tipY + 4) {
+                n.classList.add('is-reached');
+              } else {
+                n.classList.remove('is-reached');
+              }
+            });
+          };
+          const onScroll = () => {
+            if (!ticking) { ticking = true; requestAnimationFrame(update); }
+          };
+          window.addEventListener('scroll', onScroll, { passive: true });
+          window.addEventListener('resize', onScroll);
+          update();
+        }
+      }
+    });
+  </script>
 
 </body>
 </html>
